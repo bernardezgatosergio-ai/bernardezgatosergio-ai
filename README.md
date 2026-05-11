@@ -19,7 +19,7 @@ Especialista en el despliegue de soluciones de Inteligencia Artificial orientada
 ## 🇪🇺 Alianza Estratégica: Liderazgo de Consorcios KA2
 Busco instituciones educativas de alto nivel para co-liderar proyectos **Erasmus+ (KA2)**:
 1. **Dirección de I+D:** Gestión integral de la arquitectura técnica y administrativa del consorcio para la captación de fondos europeos.
-2. **Docencia Estratégica:** Integración en el claustro para materias STEM e IA aplicada, conectando a los alumnos con la realidad operativa de la empresa privada.
+2. **Docencia Estratégica:** Capacidad de asunción de carga lectiva en todo el espectro STEM: Matemáticas, Física, Química, Dibujo Técnico y Tecnología. Mi enfoque no es el temario estanco, sino la integración transversal de estas disciplinas bajo la dirección del proyecto de IA y los fondos europeos
 
 ### 🎓 Especialización Docente: El Puente STEM
 Mi integración en el aula se centra en la profesionalización de las materias científicas, aportando el contexto real de la ingeniería y la industria:
