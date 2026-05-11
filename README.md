@@ -21,6 +21,13 @@ Busco instituciones educativas de alto nivel para co-liderar proyectos **Erasmus
 1. **Dirección de I+D:** Gestión integral de la arquitectura técnica y administrativa del consorcio para la captación de fondos europeos.
 2. **Docencia Estratégica:** Integración en el claustro para materias STEM e IA aplicada, conectando a los alumnos con la realidad operativa de la empresa privada.
 
+### 🎓 Especialización Docente: El Puente STEM
+Mi integración en el aula se centra en la profesionalización de las materias científicas, aportando el contexto real de la ingeniería y la industria:
+
+* **Matemáticas e IA:** De la abstracción al algoritmo. Aplicación de cálculo y estadística en modelos de Inteligencia Artificial (Gemini/Vertex AI).
+* **Física y Química Aplicada:** Fundamentos químicos y procesos físicos aplicados a la producción industrial y nuevos materiales.
+* **Tecnología y Dibujo Técnico:** Diseño de soluciones, visión espacial y arquitectura de sistemas basada en 30 años de experiencia técnica.
+
 ---
 
 ## 📬 Documentación y Contacto
