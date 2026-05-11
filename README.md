@@ -7,8 +7,7 @@ Más de 30 años de trayectoria liderando operaciones complejas y tecnología en
 
 ### 🤖 Proyectos de I+D y Arquitectura IA
 Especialista en el despliegue de soluciones de Inteligencia Artificial orientadas a resultados:
-* **Proyecto Titan & Sabina:** Dirección técnica y estratégica de sistemas complejos.
-* **SaaS Especial para Toma de Decisiones (IA):** Arquitectura de software orientada a la optimización de procesos críticos.
+* **Proyecto Titan & Sabina: SaaS Especial para Toma de Decisiones autopoietica y metacognitiva (IA):** Arquitectura de software orientada a la optimización de procesos críticos.
 * **Proyecto "Caballo de Troya":** Ecosistema de IA (Vertex AI + BigQuery) para la gestión de la neurodiversidad y el éxito escolar.
 
 ---
