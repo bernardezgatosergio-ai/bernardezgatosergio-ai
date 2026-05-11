@@ -30,6 +30,17 @@ Mi integración en el aula se centra en la profesionalización de las materias c
 
 ---
 
+## 🎓 Formación Superior y Capacidad Investigadora
+Mi perfil combina la máxima titulación técnica con la habilitación pedagógica y la formación continua en ciencias puras:
+
+* **Doctorado (DEA):** Diploma de Estudios Avanzados finalizado. Capacidad probada para el liderazgo de proyectos de investigación y rigor metodológico.
+* **Doble Ingeniería:** Ingeniero Superior de Montes e Ingeniero Forestal. Experto en gestión de recursos, procesos industriales y sistemas complejos.
+* **Especialización en Ciencias:** Máster en Química Orgánica (en curso) y Técnico Medioambiental.
+* **Habilitación Docente:** Máster de Profesorado (MAES) con especialidad en STEM.
+
+---
+---
+
 ## 📬 Documentación y Contacto
 * [📥 **Descargar CV Ejecutivo (PDF)**](NOMBRE_DE_TU_PDF.pdf) 
 * [🚀 **Ver Demo de Caballo de Troya**](#)
