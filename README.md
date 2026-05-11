@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="REEMPLAZAR_POR_URL_DE_TU_IMAGEN.png" alt="Sergio Bernárdez - Innovación Educativa" width="100%">
+</p>
 # Sergio Bernárdez Gato | Estrategia, Innovación e Ingeniería STEM
 
 ### 🏭 Perfil Ejecutivo e Industrial Internacional
