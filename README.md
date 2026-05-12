@@ -70,20 +70,19 @@ Mi perfil combina la máxima titulación técnica con la habilitación pedagógi
 
 ## 📂 Acceso a Expediente y Recursos Técnicos
 
-* 🚀 **[Proyecto "Caballo de Troya"](./caballo-de-troya/README.md)** *Ecosistema EdTech multiagente: Telemetría pedagógica, gestión de la neurodivergencia y eliminación del Efecto Pigmalión mediante IA.*
+* 🍎 **[Manifiesto: Liderazgo y Realidad del Aula](./manifiesto/README.md)** *Por qué la docencia no es transmitir datos, sino gestionar el potencial humano mediante liderazgo industrial.*
 
-* 🤖 **[Titán y Sabina: SaaS Industrial](./titan-sabina/README.md)** *Arquitectura autopoyética y auditoría determinista. Trazabilidad legal inmutable mediante Blockchain (Polygon Mainnet).*
+* 📄 **[Dossier Ejecutivo: Sergio Bernárdez Gato](./dossier-ejecutivo/README.md)** *Propuesta de valor: Ingeniería, IA y estrategia de captación de recursos para el centro.*
 
-* ☁️ **[Capacidades en Cloud Computing & Vertex AI](./cloud-computing/README.md)** *Orquestación de LLMs (Gemini), ingeniería de datos en BigQuery y desarrollo de sistemas de misión crítica en Google Cloud.*
+* 🌍 **[Trayectoria Industrial y Estratégica](./trayectoria/README.md)** *30 años liderando operaciones, innovación (H2020) y gestión de crisis en EE.UU., Brasil, Chile y Rumanía.*
 
-* 📄 **[Curriculum Vitae Ejecutivo (PDF)](./Dossier_Sergio_Bernárdez_Gato.pdf)** *Resumen de trayectoria y propuesta de integración estructural en una sola página.*
+* 🐎 **[Proyecto "Caballo de Troya"](./caballo-de-troya/README.md)** *Ecosistema EdTech (Vertex AI): Telemetría pedagógica, alineamiento LOMLOE y eliminación del Efecto Pigmalión.*
 
-* 🍎 **[Metodología y Formación de Profesorado](./formacion-docente/README.md)** *El puente STEM: Situaciones de Aprendizaje (SDA), memoria de prácticas y habilitación docente oficial.*
+* ☁️ **[Ingeniería en IA y MLOps](./cloud-computing/README.md)** *Dossier de dominio académico: Desde el álgebra profunda y tensores, hasta arquitecturas Multiagente en Google Cloud.*
 
-* 📜 **[Credenciales Académicas y DEA](./credenciales/README.md)** *Doble Ingeniería, Máster Universitario en Formación del Profesorado, Máster Ambiental y Diploma de Estudios Avanzados.*
+* 🤖 **[Titán y Sabina: SaaS Industrial](./titan-sabina/README.md)** *Arquitectura autopoyética y auditoría determinista. Trazabilidad legal inmutable mediante Blockchain (Polygon).*
 
-* 🌍 **[Trayectoria Industrial Global](./trayectoria/README.md)** *Hitos de 30 años liderando operaciones en EE.UU., Brasil, Chile y Rumanía.*
-
+* 📜 **[Credenciales Académicas y Docentes](./credenciales/README.md)** *Doble Ingeniería, DEA (Doctorado), Máster en Formación del Profesorado y Máster en Química Orgánica.*
 ---
 ## 📬 Contacto Directo
 **Teléfono:** 604 023 231 | **Email:** [bernardezgatosergio@gmail.com](mailto:bernardezgatosergio@gmail.com)
