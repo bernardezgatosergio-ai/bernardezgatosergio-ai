@@ -69,19 +69,19 @@ Mi perfil combina la máxima titulación técnica con la habilitación pedagógi
 * **Habilitación Docente:** Máster de Profesorado (MAES) con especialidad en STEM.
 
 ## 📂 Acceso a Expediente y Recursos Técnicos
-🚀 Proyecto "Caballo de Troya" Ecosistema EdTech multiagente: Telemetría pedagógica, gestión de la neurodivergencia y eliminación del Efecto Pigmalión mediante IA.
+* 🚀 Proyecto "Caballo de Troya" Ecosistema EdTech multiagente: Telemetría pedagógica, gestión de la neurodivergencia y eliminación del Efecto Pigmalión mediante IA.
 
-🤖 Titán y Sabina: SaaS Industrial Arquitectura autopoyética y auditoría determinista. Trazabilidad legal inmutable mediante Blockchain (Polygon Mainnet).
+* 🤖 Titán y Sabina: SaaS Industrial Arquitectura autopoyética y auditoría determinista. Trazabilidad legal inmutable mediante Blockchain (Polygon Mainnet).
 
-☁️ Capacidades en Cloud Computing & Vertex AI Orquestación de LLMs (Gemini), ingeniería de datos en BigQuery y desarrollo de sistemas de misión crítica en Google Cloud.
+* ☁️ Capacidades en Cloud Computing & Vertex AI Orquestación de LLMs (Gemini), ingeniería de datos en BigQuery y desarrollo de sistemas de misión crítica en Google Cloud.
 
-📄 Curriculum Vitae Ejecutivo (PDF) Resumen de trayectoria y propuesta de integración estructural en una sola página de alta densidad informativa.
+* 📄 Curriculum Vitae Ejecutivo (PDF) Resumen de trayectoria y propuesta de integración estructural en una sola página de alta densidad informativa.
 
-🍎 Metodología y Formación de Profesorado El puente STEM: Situaciones de Aprendizaje (SDA), memoria de prácticas y habilitación docente oficial (Especialidad Matemáticas).
+* 🍎 Metodología y Formación de Profesorado El puente STEM: Situaciones de Aprendizaje (SDA), memoria de prácticas y habilitación docente oficial (Especialidad Matemáticas).
 
-📜 Credenciales Académicas y DEA Doble Ingeniería, Máster Universitario en Formación del Profesorado, Máster Ambiental y Diploma de Estudios Avanzados (Doctorado).
+* 📜 Credenciales Académicas y DEA Doble Ingeniería, Máster Universitario en Formación del Profesorado, Máster Ambiental y Diploma de Estudios Avanzados (Doctorado).
 
-🌍 Trayectoria Industrial Global Hitos de 30 años liderando operaciones en EE.UU., Brasil, Chile y Rumanía. Gestión de plantas, activos multinacionales y proyectos de I+D.
+* 🌍 Trayectoria Industrial Global Hitos de 30 años liderando operaciones en EE.UU., Brasil, Chile y Rumanía. Gestión de plantas, activos multinacionales y proyectos de I+D.
 
 ---
 ## 📬 Contacto Directo
