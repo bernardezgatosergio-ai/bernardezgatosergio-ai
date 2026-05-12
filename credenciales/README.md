@@ -24,5 +24,5 @@ La innovación tecnológica y el liderazgo en el aula deben estar respaldados po
 *(En esta carpeta se encuentran los documentos originales digitalizados en formato PDF para su verificación por parte de los equipos de Inspección Educativa o Recursos Humanos).*
 
 <p align="center">
-  <sub>Expediente Académico | Sergio Bernárdez Gato</sub>
-</p>
+  <b><a href="https://github.com/bernardezgatosergio-ai">⬅️ Volver al Menú Principal</a></b>
+</p
