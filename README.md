@@ -69,7 +69,6 @@ Mi perfil combina la máxima titulación técnica con la habilitación pedagógi
 * **Habilitación Docente:** Máster de Profesorado (MAES) con especialidad en STEM.
 
 ## 📂 Acceso a Expediente y Recursos Técnicos
-## 📂 Acceso a Expediente y Recursos Técnicos
 
 * 🚀 **[Proyecto "Caballo de Troya"](./caballo-de-troya/README.md)** *Ecosistema EdTech multiagente: Telemetría pedagógica, gestión de la neurodivergencia y eliminación del Efecto Pigmalión mediante IA.*
 
