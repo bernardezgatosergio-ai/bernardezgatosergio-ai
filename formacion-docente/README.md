@@ -18,7 +18,7 @@ Esos alumnos que "despiertan tarde" suelen ser los que poseen la mayor resilienc
 El adolescente posee un radar instintivo, casi animal, para detectar la verdad. En el momento en que un docente cruza el umbral de la puerta, ese radar se activa. No evalúan títulos; **evalúan presencia.**
 
 ### ⚡ El Impacto del Liderazgo Real
-Cuando un grupo detecta a alguien que ha gestionado crisis reales, que ha tomado decisiones bajo presión en cuatro continentes y que habla desde la experiencia de la "economía real", **el aula se detiene**. Es un respeto que no se exige, se gana por **gravedad profesional**. Los alumnos se quedan pasmados ante un liderazgo que no necesita gritar porque tiene peso propio. Saben que lo que explicas tiene un propósito porque tú lo has usado para construir cosas que ellos pueden tocar.
+Cuando un grupo detecta a alguien que ha gestionado crisis reales, que ha tomado decisiones bajo presión en cuatro continentes y que habla desde la experiencia de la "economía real", **el aula se detiene**. Es un respeto que no se exige, se gana por **gravedad profesional**. Los alumnos se quedan atónitos ante un liderazgo que no necesita gritar porque tiene peso propio. Saben que lo que explicas tiene un propósito porque tú lo has usado para construir cosas que ellos pueden tocar.
 
 ### 🌑 El Rechazo a la Falta de Autoestima
 El alumno es implacable con la duda. Ante un docente que carece de autoestima o que se refugia en la teoría por miedo a la realidad, **el alumno retira la mirada**. Ese gesto de apartar la vista es la muerte del proceso educativo; es el radar confirmando que ahí no hay nadie a quien valga la pena seguir. La inseguridad se huele, y en un aula, la inseguridad se traduce en caos.
