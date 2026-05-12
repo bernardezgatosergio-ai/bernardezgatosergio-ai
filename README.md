@@ -1,54 +1,89 @@
 <p align="center">
+
   <img src="banner.jpg" alt="Sergio Bernárdez - Innovación Educativa" width="100%">
+
 </p>
 
-# Sergio Bernárdez Gato | Ingeniería STEM e Innovación Educativa
-> **Propuesta de integración:** Volcar 30 años de experiencia industrial internacional en el aula y desarrollar soluciones de IA nativa para el éxito escolar.
 
----
 
-## 👨‍🏫 Mi Compromiso con el Centro
-Mi objetivo es incorporarme a su equipo docente para transformar las materias STEM en experiencias de aprendizaje real. Busco sumar mis capacidades técnicas a la identidad del centro, aportando estabilidad y una visión profesional de alto nivel.
+# Sergio Bernárdez Gato | Estrategia, Innovación e Ingeniería STEM
+
+
 
 ### 🏭 Perfil Ejecutivo e Industrial Internacional
-* **Liderazgo Global:** Más de 30 años dirigiendo operaciones y tecnología en multinacionales de **EE.UU. (Pennsylvania), Brasil, Chile y Rumanía**.
-* **Gestión de Activos:** Ex-Director Industrial y de Innovación, experto en eficiencia operativa y liderazgo de equipos de alta complejidad.
 
----
+Más de 30 años de trayectoria liderando operaciones complejas y tecnología en entornos multinacionales:
 
-## 🤖 Innovación Compartida: Proyecto "Caballo de Troya"
-Propongo el desarrollo de una infraestructura de IA (Vertex AI + BigQuery) diseñada como soporte para el docente y la orientación académica:
-* **Métricas para ayudar:** Identificación científica de Altas Capacidades (AACC) y refuerzo educativo mediante telemetría objetiva.
-* **Optimización de Procesos:** Aplicación de arquitecturas **Titan & Sabina** para una toma de decisiones metacognitiva y libre de sesgos (Efecto Pigmalión).
+* **Director Industrial de Multinacional:** Gestión de plantas y activos en **EE.UU. (Pennsylvania), Brasil, Chile y Rumanía**.
 
-## 🇪🇺 Captación de Fondos: Liderazgo en Consorcios KA2
-Mi valor diferencial incluye la capacidad de atraer inversión externa al centro:
-1. **Dirección de I+D:** Gestión técnica y administrativa para la solicitud de fondos **Erasmus+ (KA2)**.
-2. **Financiación de la Innovación:** Implementar tecnología de vanguardia sin cargo al presupuesto ordinario del colegio.
+* **Director de Innovación de Multinacional:** Liderazgo de procesos de transformación tecnológica y eficiencia operativa.
 
----
 
-## 📚 Especialización Docente: El Puente STEM
-Profesionalización de las materias científicas mediante el contexto real de la ingeniería:
-* **Matemáticas e IA:** Modelado de algoritmos a partir de cálculo y estadística aplicada.
-* **Física y Química:** Fundamentos aplicados a la producción industrial y nuevos materiales.
-* **Tecnología y Dibujo Técnico:** Diseño de sistemas y visión espacial basada en práctica profesional.
 
-### 🎓 Formación Superior y Capacidad Investigadora
-* **Doctorado (DEA):** Diploma de Estudios Avanzados (Capacidad Investigadora finalizada).
-* **Doble Ingeniería:** Ingeniero Superior de Montes e Ingeniero Forestal.
-* **Máster en Gestión y Tecnología Ambiental:** Especialista en sostenibilidad y economía circular.
-* **Máster de Profesorado (MAES):** Habilitación docente en especialidad STEM.
-* **Especialización en Ciencias:** Máster en Química Orgánica (en curso).
+### 🤖 Proyectos de I+D y Arquitectura IA
 
----
+Especialista en el despliegue de soluciones de Inteligencia Artificial orientadas a resultados:
+
+* **Proyecto Titan & Sabina:** SaaS especializado para Toma de Decisiones autopoiética y metacognitiva (IA). Arquitectura de software orientada a la optimización de procesos críticos.
+
+* **Proyecto "Caballo de Troya":** Ecosistema de IA (Vertex AI + BigQuery) para la gestión de la neurodiversidad y el éxito escolar mediante telemetría objetiva en tiempo real.
+
+
+
+## 🇪🇺 Alianza Estratégica: Liderazgo de Consorcios KA2
+
+Busco instituciones educativas de alto nivel para co-liderar proyectos **Erasmus+ (KA2)**:
+
+1. **Dirección de I+D:** Gestión integral de la arquitectura técnica y administrativa del consorcio para la captación de fondos europeos.
+
+2. **Docencia Estratégica:** Capacidad de asunción de carga lectiva en todo el espectro STEM: Matemáticas, Física, Química, Dibujo Técnico y Tecnología. Mi enfoque no es el temario estanco, sino la integración transversal de estas disciplinas bajo la dirección del proyecto de IA y los fondos europeos
+
+
+
+### 🎓 Especialización Docente: El Puente STEM
+
+Mi integración en el aula se centra en la profesionalización de las materias científicas, aportando el contexto real de la ingeniería y la industria:
+
+
+
+* **Matemáticas e IA:** De la abstracción al algoritmo. Aplicación de cálculo y estadística en modelos de Inteligencia Artificial (Gemini/Vertex AI).
+
+* **Física y Química Aplicada:** Fundamentos químicos y procesos físicos aplicados a la producción industrial y nuevos materiales.
+
+* **Tecnología y Dibujo Técnico:** Diseño de soluciones, visión espacial y arquitectura de sistemas basada en 30 años de experiencia técnica.
+
+
+
+## 🎓 Formación Superior y Capacidad Investigadora
+
+Mi perfil combina la máxima titulación técnica con la habilitación pedagógica y la formación continua en ciencias puras:
+
+
+
+* **Doctorado (DEA):** Diploma de Estudios Avanzados finalizado. Capacidad probada para el liderazgo de proyectos de investigación y rigor metodológico.
+
+* **Doble Ingeniería:** Ingeniero Superior de Montes e Ingeniero Forestal. Experto en gestión de recursos, procesos industriales y sistemas complejos.
+
+* **Especialización en Ciencias:** Máster en Química Orgánica (en curso) y Técnico Medioambiental.
+
+* **Habilitación Docente:** Máster de Profesorado (MAES) con especialidad en STEM.
+
+
 
 ## 📬 Documentación y Contacto
-* [📥 **Descargar Dossier Técnico (PDF)**](Dossier_Sergio_Bernardez.pdf)
+
+* [📥 **Descargar CV Ejecutivo (PDF)**](NOMBRE_DE_TU_PDF.pdf) 
+
+* [🚀 **Ver Demo de Caballo de Troya**](#)
+
 * [💼 **Perfil de LinkedIn**](https://www.linkedin.com/in/TU_PERFIL)
-* **Teléfono:** 604 023 231 | **Email:** [bernardezgatosergio@gmail.com](mailto:bernardezgatosergio@gmail.com)
+
+
 
 ---
+
 <p align="center">
-  <sub>Ingeniería aplicada a la educación secundaria | 2026</sub>
+
+  <sub>Ingeniería aplicada a la educación | 2026</sub>
+
 </p>
