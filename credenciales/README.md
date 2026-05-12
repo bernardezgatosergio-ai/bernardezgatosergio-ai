@@ -15,7 +15,7 @@ La innovación tecnológica y el liderazgo en el aula deben estar respaldados po
 * **Máster Universitario en Química Orgánica:** *(En curso)*. Actualización continua en ciencias puras.
 
 ## 🍎 Habilitación Docente
-* **Máster Universitario en Formación del Profesorado:** * Especialidad: **Matemáticas.**
+* **Máster Universitario en Formación del Profesorado:** Especialidad: **Matemáticas.**
   * Habilitación legal para impartir docencia en Educación Secundaria Obligatoria, Bachillerato y Formación Profesional.
 
 ---
