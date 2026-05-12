@@ -19,10 +19,6 @@ La innovación tecnológica y el liderazgo en el aula deben estar respaldados po
   * Habilitación legal para impartir docencia en Educación Secundaria Obligatoria, Bachillerato y Formación Profesional.
 
 ---
-
-### 📂 Archivos Anexos
-*(En esta carpeta se encuentran los documentos originales digitalizados en formato PDF para su verificación por parte de los equipos de Inspección Educativa o Recursos Humanos).*
-
 <p align="center">
   <b><a href="https://github.com/bernardezgatosergio-ai">⬅️ Volver al Menú Principal</a></b>
 </p
