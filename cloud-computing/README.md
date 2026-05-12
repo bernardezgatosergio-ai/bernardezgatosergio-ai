@@ -47,3 +47,7 @@ Dominio práctico del *stack* de inteligencia artificial empresarial de Google p
 ---
 
 > "El verdadero dominio de la Inteligencia Artificial no radica en invocar un modelo preentrenado, sino en comprender la topología del espacio tensorial donde opera y tener la capacidad de diseñar la infraestructura necesaria para escalarlo."
+
+<p align="center">
+  <b><a href="https://github.com/bernardezgatosergio-ai">⬅️ Volver al Menú Principal</a></b>
+</p
