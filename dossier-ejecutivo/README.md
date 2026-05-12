@@ -33,8 +33,3 @@ Este documento sintetiza una trayectoria de 30 años en la vanguardia industrial
 ## 🎯 Objetivo de Integración
 Busco una posición donde pueda aportar mi veteranía industrial para formar a la próxima generación de líderes, trabajando bajo la dirección del centro para situarlo como un referente internacional en la Educación 4.0.
 
-> "Mi veteranía no es solo pasado; es la garantía de que sé cómo construir el futuro de sus alumnos."
-
-<p align="center">
-  [GitHub: Acceso al Expediente Completo](https://github.com/bernardezgatosergio-ai/bernardezgatosergio-ai)
-</p>
