@@ -68,17 +68,15 @@ Mi perfil combina la máxima titulación técnica con la habilitación pedagógi
 
 * **Habilitación Docente:** Máster de Profesorado (MAES) con especialidad en STEM.
 
+## 📂 Acceso a Expediente y Recursos Técnicos
+* [📄 **Curriculum Vitae Ejecutivo (PDF)**](./Dossier_Sergio_Bernardez.pdf) - Trayectoria industrial y académica completa.
+* [☁️ **Capacidades Vertex AI & Cloud Computing**](./cloud-computing/README.md) - Arquitectura técnica y despliegue de soluciones en la nube.
+* [🚀 **Demo Proyecto "Caballo de Troya"**](./demo-ia/README.md) - Prototipo de telemetría pedagógica y analítica predictiva.
+* [🎓 **Formación y Prácticas de Profesorado**](./formacion-docente/README.md) - Memoria de prácticas y metodología pedagógica aplicada.
 
-
-## 📬 Documentación y Contacto
-
-* [📥 **Descargar CV Ejecutivo (PDF)**](NOMBRE_DE_TU_PDF.pdf) 
-
-* [🚀 **Ver Demo de Caballo de Troya**](#)
-
-* [💼 **Perfil de LinkedIn**](https://www.linkedin.com/in/TU_PERFIL)
-
-
+---
+## 📬 Contacto Directo
+**Teléfono:** 604 023 231 | **Email:** [bernardezgatosergio@gmail.com](mailto:bernardezgatosergio@gmail.com)
 
 ---
 
