@@ -38,5 +38,5 @@ No enseño matemáticas de libro. Enseño la herramienta con la que se construye
 > "He formado a los líderes que hoy mueven industrias. Mi objetivo ahora es formar a los que diseñarán el futuro."
 
 <p align="center">
-  <sub>Sergio Bernárdez Gato | 2026</sub>
-</p>
+  <b><a href="https://github.com/bernardezgatosergio-ai">⬅️ Volver al Menú Principal</a></b>
+</p
