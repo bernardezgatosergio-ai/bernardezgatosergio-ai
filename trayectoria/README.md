@@ -43,5 +43,5 @@ Mi objetivo docente es transferir esta visión pragmática y este nivel de exige
 > "La resiliencia no se enseña en los libros; se transfiere demostrando cómo se levanta una infraestructura desde cero y cómo se diseña el futuro con matemáticas e IA."
 
 <p align="center">
-  <sub>Ingeniería Ejecutiva y Algoritmia | Sergio Bernárdez Gato | 2026</sub>
-</p>
+  <b><a href="https://github.com/bernardezgatosergio-ai">⬅️ Volver al Menú Principal</a></b>
+</p
