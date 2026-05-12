@@ -56,3 +56,7 @@ Inmunidad Legal: Evidencias digitales con validez jurídica internacional anclad
 Eficiencia Ejecutiva: Gestión por excepción; el sistema solo interrumpe al director cuando su intervención es estrictamente necesaria.
 
 "No es una herramienta de gestión; es una infraestructura de ingeniería diseñada para que la realidad física y la realidad financiera sean una sola cosa."
+
+<p align="center">
+  <b><a href="https://github.com/bernardezgatosergio-ai">⬅️ Volver al Menú Principal</a></b>
+</p
