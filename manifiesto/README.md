@@ -1,5 +1,5 @@
 # 🍎 Manifiesto: Liderazgo, Propósito y la Realidad del Aula
-### *Por qué no enseño por necesidad, sino por vocación de liderazgo.*
+### *Porque no enseño por necesidad, sino por vocación y liderazgo.*
 
 No llego a la docencia por descarte, sino por **propósito**. Tras 30 años liderando estructuras industriales internacionales y gestionando equipos humanos complejos en cuatro continentes, he llegado a una conclusión: **Enseñar no es transmitir datos, es gestionar el potencial humano.**
 
