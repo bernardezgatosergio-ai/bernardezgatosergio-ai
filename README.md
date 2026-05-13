@@ -2,8 +2,6 @@
   <video src="https://github.com/user-attachments/assets/7a3f7d45-c9d1-4900-ba32-15c34f3407b3" autoplay loop muted playsinline width="100%"></video>
 </div>
 
-https://github.com/user-attachments/assets/7a3f7d45-c9d1-4900-ba32-15c34f3407b3
-
 <p align="center">
 
   <img src="banner.jpg" alt="Sergio Bernárdez - Innovación Educativa" width="100%">
