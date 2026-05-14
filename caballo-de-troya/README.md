@@ -1,3 +1,14 @@
+🐎 CABALLO DE TROYA
+Sistema Educativo Adaptativo con Inteligencia Artificial
+
+"Diseñado para que el docente vuelva a ser docente — y para que ningún alumno quede atrás sin que nadie lo sepa."
+
+
+¿Qué es Caballo de Troya?
+Caballo de Troya no es una aplicación de deberes digitales. Es una arquitectura pedagógica completa que integra Inteligencia Artificial adaptativa, telemetría de aprendizaje en tiempo real y metodología colaborativa estructurada en un único ecosistema multitenant diseñado para centros educativos concertados y privados.
+El sistema opera sobre Gemini Flash 2.5 vía API de Google, con BigQuery como lago de datos pedagógico y una interfaz de terminal por alumno que convierte cada sesión de aprendizaje en datos científicamente valiosos.
+Estado actual: Piloto activo en centro concertado de Vigo. TFM del Máster de Formación del Profesorado (USC).
+
 Arquitectura General
 CENTRO EDUCATIVO (Tenant)
 │
@@ -130,3 +141,7 @@ Autor
 Sergio Bernárdez Gato
 Ingeniero de Montes · Máster en Formación del Profesorado (STEM) · Arquitecto de Sistemas IA
 Caballo de Troya nació de una historia personal. Fui un niño que el sistema no supo leer. Esta herramienta existe para que ningún alumno pase desapercibido.
+
+
+Desarrollado como TFM del Máster de Formación del Profesorado de Educación Secundaria
+Universidad de Santiago de Compostela — 2025/2026
