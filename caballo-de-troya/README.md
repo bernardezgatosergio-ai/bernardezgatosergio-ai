@@ -1,47 +1,132 @@
-🐎 Proyecto "Caballo de Troya": Inteligencia Artificial Adaptativa
-Ecosistema de Gestión Curricular, Telemetría Pedagógica y Éxito Escolar
-Caballo de Troya es una infraestructura de vanguardia diseñada para transformar centros educativos en entornos de alto rendimiento. Utilizando la potencia de Google Cloud (Vertex AI), el sistema integra la gestión administrativa, el cumplimiento legal de la LOMLOE y la personalización masiva del aprendizaje en una sola arquitectura Multitenant.
+Arquitectura General
+CENTRO EDUCATIVO (Tenant)
+│
+├── Equipo Directivo → PEC + Gobernanza + Dashboard ejecutivo
+├── Tutores → Diseño de SDA + Supervisión + Executive Summary
+├── Alumnos → Terminal individual + Grupos de escuadrón
+└── Familias → Reporte de evolución competencial
+         │
+         ▼
+    GEMINI FLASH 2.5
+    (Tutor IA | Auditor | Paramédico)
+         │
+         ▼
+    BIGQUERY
+    (Lago de datos pedagógico longitudinal)
+Diseño Multitenant
+Cada centro opera en un entorno completamente aislado con:
 
-🏛️ Arquitectura de Escala: Multicentro y Multitenant
-El sistema ha sido diseñado con una estructura de grado empresarial que permite una gestión jerárquica y aislada:
+PEC propio inyectado dinámicamente en el sistema
+Equipo directivo independiente con panel de supervisión ejecutiva
+Telemetría blindada — los datos de un centro no son accesibles desde otro
+Gobernanza curricular propia alineada con LOMLOE por centro
 
-Gestión Multicentro: Capacidad para supervisar varios centros educativos desde un único panel directivo, manteniendo la independencia de los Proyectos Educativos de Centro (PEC) de cada sede.
 
-Seguridad de Datos: Aislamiento total de la información por centro, garantizando que la telemetría de los alumnos y la propiedad intelectual de las programaciones docentes estén blindadas.
+Motor de Perfilado IA — El Núcleo
+El sistema construye tres perfiles simultáneos por alumno sin intervención del docente y sin etiquetas previas.
+1. Perfil Neurodivergente (Doble Ciego)
+El alumno no sabe que está siendo evaluado. El tutor no introduce sesgos conscientes. El sistema infiere el perfil desde patrones de respuesta en tiempo real:
 
-⚖️ Alineamiento Curricular: El Motor LOMLOE
-Una de las mayores cargas del docente actual es el encaje burocrático de sus lecciones. Caballo de Troya automatiza este proceso:
+Latencia de respuesta — tiempo entre exposición al problema y primer intento
+Tipo de error — conceptual, procedimental, de comprensión lectora o emocional
+Patrón de progresión — lineal, por saltos, regresivo o dependiente de andamiaje
+Consistencia inter-sesión — estabilidad del rendimiento en condiciones distintas
 
-Mapeo de Competencias: Cada Situación de Aprendizaje (SDA) y cada sesión generada por la IA está alineada automáticamente con los descriptores operativos y competencias específicas de la LOMLOE.
+El resultado no es un diagnóstico clínico. Es un mapa de aprendizaje que el tutor usa para intervenir con precisión, no con intuición.
+2. Ancla Psicológica
+El sistema detecta el vector motivacional dominante de cada alumno analizando sus respuestas, elecciones y patrones de engagement. Categorías: NATURALEZA, TECNOLOGÍA, MITOS, LIDERAZGO, SUPERVIVENCIA, CREACIÓN, entre otras.
+El ancla no es estática — evoluciona con el alumno. Se usa para contextualizar misiones y maximizar el compromiso emocional con el contenido curricular.
+3. Punto de Freno
+Identifica el nodo cognitivo exacto donde el alumno se bloquea de forma recurrente. Diferencia entre:
 
-Coherencia Pedagógica: El sistema asegura que las actividades propuestas cumplan con los criterios de evaluación vigentes, facilitando la auditoría de la inspección educativa.
+Bloqueo conceptual — falta de comprensión del fundamento
+Bloqueo emocional — ansiedad ante el error o el reto
+Bloqueo de autoestima — el alumno cree que no puede antes de intentarlo
+Bloqueo de base — prerequisito curricular no adquirido
 
-📊 Telemetría y Métricas del Alumno
-El sistema monitoriza el rastro digital de cada interacción para construir un perfil de éxito:
 
-Métricas en Tiempo Real: El sistema no solo mide el "acierto/error", sino la latencia de respuesta, la calidad del razonamiento y el nivel de confianza del alumno ante el reto.
+Los Tres Tipos de Situaciones de Aprendizaje
+SDA Tipo A — El Gimnasio
+Refuerzo individual guiado por IA. Equivalente a los deberes tradicionales pero con adaptación continua. La IA no da la respuesta — inyecta la pregunta correcta en el momento correcto para activar el razonamiento del alumno.
+SDA Tipo B — Asignatura con Criterio ODS
+Situación de aprendizaje vinculada a un saber curricular concreto con un criterio ODS explícito. El alumno trabaja el concepto en contexto real. Alineamiento automático con descriptores operativos y competencias específicas LOMLOE.
+SDA Tipo C — La Misión Semanal (5 Llaves)
+El núcleo más innovador del sistema.
+Un mismo concepto abordado durante cinco días consecutivos desde cinco ángulos distintos. Grupos de cuatro alumnos de capacidades heterogéneas.
+LUNES     → Llave de Contexto      (¿Dónde estamos?)
+MARTES    → Llave de Análisis      (¿Qué está pasando?)
+MIÉRCOLES → Llave de Conexión      (¿Cómo se relaciona?)
+JUEVES    → Llave de Aplicación    (¿Cómo lo usamos?)
+VIERNES   → Llave de Síntesis      (¿Qué hemos construido?)
+Ceguera Asimétrica
+Cada alumno recibe un fragmento distinto de la misión. Ninguno puede resolver solo. La solución final requiere que los cuatro coordinen sus fragmentos a través del Radio de Escuadrón.
+El que más sabe aprende enseñando. El que menos sabe opera sin la presión de la comparación directa.
+Roles Técnicos Adaptativos
+EXPLORADOR · OPERARIO · GESTOR · ARQUITECTO
+Asignados dinámicamente según el perfil y nivel de avance de cada alumno. Evolucionan con el alumno a lo largo del curso.
 
-Identificación de Altas Capacidades (AACC): Mediante patrones de resolución de problemas complejos y saltos lógicos detectados por la IA, el sistema identifica talento oculto que a menudo pasa desapercibido en evaluaciones tradicionales.
+El Paramédico IA
+Agente de intervención que monitoriza el estado cognitivo y emocional del alumno durante cada sesión. Cuando detecta bloqueo activa la Transmutación — reencuadra la misión, cambia el ángulo de ataque, inyecta un andamiaje cognitivo personalizado.
+No resuelve. Desbloquea.
 
-📝 Soporte al Claustro: Resúmenes e Intervención
-Caballo de Troya no sustituye al profesor; lo dota de "superpoderes" informativos para reducir su carga administrativa:
+Detección del Efecto Pigmalión
+El sistema cruza las expectativas registradas del tutor sobre cada alumno con los resultados reales de telemetría. Si detecta divergencia sistemática activa una alerta pedagógica.
+El tutor está limitando o inflando el potencial del alumno de forma inconsciente. El sistema lo hace visible antes de que cause daño longitudinal.
 
-Executive Summaries para el Docente: Tras cada sesión, el sistema genera un resumen ejecutivo para el profesor. En lugar de revisar 30 ejercicios, el docente recibe una nota: "5 alumnos se han bloqueado en el concepto X; 2 alumnos han mostrado una progresión excepcional".
+Soporte al Claustro
+Executive Summary por Sesión
+RESUMEN SESIÓN — Grupo 3B
 
-Gestión de Tutorías: Automatiza el proceso de tutoría registrando la evolución longitudinal del alumno. El tutor llega a la reunión con datos objetivos, no con impresiones subjetivas.
+⚠️  5 alumnos bloqueados en el concepto X (bloqueo conceptual)
+✅  2 alumnos con progresión excepcional — posible perfil AACC
+🔄  3 alumnos con bloqueo emocional — intervención recomendada
+📈  Evolución media del grupo: +12% respecto a sesión anterior
+El tutor no revisa 30 ejercicios. Recibe datos accionables.
+Gestión de Tutorías
+El tutor llega a la reunión con familia con datos objetivos y longitudinales, no con impresiones subjetivas.
+Identificación de Altas Capacidades
+El sistema identifica talento oculto mediante patrones de resolución de problemas complejos y saltos lógicos — especialmente en perfiles neurodivergentes que las evaluaciones tradicionales no detectan.
 
-👨‍👩‍👧‍👦 Conexión Familiar y Transparencia
-El sistema democratiza el dato para involucrar a las familias en el proceso educativo:
+Telemetría — BigQuery como Lago de Datos Pedagógico
+VariableDescripciónlatencia_respuestaTiempo entre exposición y primer intentotipo_errorClasificación dimensional del errorpatron_bloqueoNodo cognitivo de freno identificadoevolucion_rolProgresión de rol en el escuadrónancora_activaVector motivacional dominante en sesiónconfianza_alumnoNivel de autoeficacia percibidacalidad_razonamientoScore de profundidad argumentativapigmalion_alertDivergencia expectativa/rendimiento real
+Los datos son propiedad del centro — no de la plataforma.
 
-Información Estructurada: Las familias reciben reportes claros sobre la evolución competencial de sus hijos, alejándose de la nota numérica estanca y centrándose en el crecimiento real.
+Potencial de Investigación — Proyectos AK2
+En 24-36 meses de operación con miles de alumnos genera una base de datos sin precedentes en España:
 
-Seguimiento Positivo: El enfoque se desplaza hacia lo que el alumno ha logrado y cómo ha superado sus "puntos de freno", fortaleciendo el vínculo familia-escuela.
+Patrones de neurodivergencia no diagnosticada en población escolar
+Efectividad comparada de metodologías colaborativas con IA mediadora
+Correlación entre perfil psicológico y rendimiento académico longitudinal
+Impacto del aprendizaje entre iguales en grupos heterogéneos estructurados
+Detección temprana de altas capacidades en entornos desfavorecidos
 
-🔬 Pilares del Perfilado IA (Doble Ciego)
-Perfil Neurodivergente: Inferencia de patrones de aprendizaje sin etiquetas previas, eliminando el sesgo del observador.
+Los centros participantes son coautores de esa investigación con posibilidad de participar en convocatorias europeas AK2.
 
-Ancla Psicológica: Personalización del contexto (Naturaleza, Tecnología, etc.) para asegurar el máximo compromiso emocional.
+Stack Tecnológico
+Modelo IA     →  Gemini Flash 2.5 (Google AI API)
+Base de datos →  BigQuery (lago de datos pedagógico)
+Backend       →  Python
+Arquitectura  →  Multitenant con aislamiento por centro
+Estado        →  Piloto activo — centro concertado Vigo 2025/2026
+TFM           →  Máster Formación del Profesorado USC
 
-Punto de Freno: Identificación técnica de si el bloqueo es conceptual, emocional o de base de conocimientos.
+Estado del Proyecto
 
-"Una infraestructura diseñada para que el docente vuelva a ser docente, delegando en la IA la carga de la telemetría, el alineamiento legal y la síntesis de datos."
+✅ Arquitectura multitenant operativa
+✅ Motor de perfilado IA con doble ciego activo
+✅ Tres tipos de SDA implementadas
+✅ Roles adaptativos (EXPLORADOR/OPERARIO/GESTOR/ARQUITECTO)
+✅ Ceguera Asimétrica y Radio de Escuadrón funcionando
+✅ Paramédico IA con Transmutación activa
+✅ Detección de Efecto Pigmalión implementada
+✅ Telemetría BigQuery operacional
+✅ Executive Summary por sesión
+✅ Dashboard familiar activo
+🔄 Piloto en curso — centro concertado Vigo
+🔄 TFM en fase de entrega final
+
+
+Autor
+Sergio Bernárdez Gato
+Ingeniero de Montes · Máster en Formación del Profesorado (STEM) · Arquitecto de Sistemas IA
+Caballo de Troya nació de una historia personal. Fui un niño que el sistema no supo leer. Esta herramienta existe para que ningún alumno pase desapercibido.
