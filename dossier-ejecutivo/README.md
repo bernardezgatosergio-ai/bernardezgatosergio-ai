@@ -60,25 +60,8 @@ Mi única herramienta es el compromiso, el liderazgo y la capacidad de convertir
 He desarrollado íntegramente un ecosistema educativo con Inteligencia Artificial que el centro recibe como herramienta activa desde el primer día — sin coste de desarrollo ni implementación.
 
 **Arquitectura:**
-GEMINI FLASH 2.5 (Google AI)
-│
-┌────┴─────┐
-│          │
-BIGQUERY   Motor de
-Telemetría  Perfilado IA
-Pedagógica      │
-│      ┌───┴───┐
-│   Doble   Ancla
-│   Ciego   Psico-
-│           lógica
-└──────┬────┘
-│
-Dashboard Docente
-Dashboard Familia
-Dashboard Directivo
-
-**Capacidades diferenciales:**
-
+GEMINI FLASH 2.5 (Google AI)bOperando en BigQuery Con gestión por ceguera asimetrica desde el alumno. Motor de Telemetría Pedagógica. Perfilado Doble ciego. Ancla psicológica. Dashboard Directivo. Dashboard Tutor. Dashboard Docente. Dashboard Alumno. 
+** Capacidades diferenciales:**
 - **Perfilado neurodivergente con doble ciego** — sin etiquetas previas, sin sesgo del observador
 - **Detección del Efecto Pigmalión** — alerta cuando el tutor está limitando inconscientemente el potencial del alumno
 - **Tres tipos de Situaciones de Aprendizaje** — gimnasio individual, SDA por asignatura y misión colaborativa semanal con 5 llaves
@@ -87,6 +70,8 @@ Dashboard Directivo
 - **Alineamiento LOMLOE automático** — cada actividad alineada con descriptores operativos y competencias específicas sin carga administrativa para el docente
 - **Executive Summary por sesión** — el tutor recibe datos accionables, no 30 ejercicios que corregir
 - **Telemetría longitudinal en BigQuery** — datos de aprendizaje de valor científico real
+- **Informe continuo a tutor**
+- **Informe continuo a familias**
 
 **Impacto en el centro:**
 
