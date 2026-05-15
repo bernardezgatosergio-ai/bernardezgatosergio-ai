@@ -7,136 +7,320 @@
 
 ---
 
-## Capítulo 12 — El Funcional Lineal: La Máquina de Medir
+## Capítulo 12: El concepto de Funcional Lineal: El mapeo de la decisión
 
-### Explicación Intuitiva: El embudo numérico
-Si un vector es un objeto complejo (como una imagen de 1000 píxeles o el perfil de un cliente), un **funcional lineal** es una máquina que traga ese vector complejo y devuelve un único número real. Es un medidor. Puedes tener un funcional que mida el "brillo total" de la imagen, o otro que mida la "probabilidad de impago" del cliente.
+### 12.1. Explicación para "Dummies": La Máquina de un solo número
+Un Funcional Lineal es una aplicación que reduce un vector complejo a un único número escalar evaluativo.
 
-### Ejemplo Aplicado: La Neurona Artificial Básica
-Antes de aplicar cualquier función de activación no lineal (como ReLU o Sigmoide), una neurona realiza una suma ponderada de sus entradas. Multiplica cada píxel por un peso y suma todo. Esa operación es, en esencia, un funcional lineal actuando sobre el vector de entrada.
+No es una máquina que transforma la foto en otra foto; es una máquina que la evalúa.
+Una máquina podría decirte: "¿Cuánta resina tiene?" -> Resultado: $0.85$.
+Otra podría decir: "¿Es un nudo de madera?" -> Resultado: $1$ (muy probable).
 
-### Rigor Matemático
-Un funcional lineal (o forma lineal) sobre un espacio vectorial $V$ sobre un cuerpo $\mathbb{R}$ es una aplicación $f: V \to \mathbb{R}$ que conserva la linealidad:
+En la IA, cada neurona de la primera capa es una de estas máquinas. Su único trabajo es mirar el espacio de entrada y "reducirlo" a un escalar que resuma una característica.
 
-$$f(u + v) = f(u) + f(v)$$
-$$f(\lambda v) = \lambda f(v)$$
+### 12.2. Rigor mediante Ejemplo Aplicado: El Detector de "Brillo Superior"
+Volvemos a nuestra rejilla de $3 \times 3$. Queremos diseñar una neurona (funcional) que solo se preocupe por cuánto brillo hay en la fila de arriba, ignorando el resto.
 
-Para vectores columna $v \in \mathbb{R}^n$, un funcional lineal se representa como un vector fila multiplicando por la izquierda:
+**El Escenario:**
+Definimos nuestro funcional $f$. Si le pasamos una imagen $v$, el funcional hace lo siguiente:
+* Mira el píxel 1, 2 y 3.
+* Los suma.
+* Ignora los píxeles 4 al 9.
 
-$$f(v) = [w_1, w_2, \dots, w_n] \begin{bmatrix} v_1 \\ v_2 \\ \vdots \\ v_n \end{bmatrix} = \sum_{i=1}^{n} w_i v_i$$
+Si entra una imagen con la fila superior iluminada, el resultado es alto.
+Si entra una imagen con mucho brillo abajo pero nada arriba, el resultado es $0$.
 
-### Figuras
+**Relación con la IA:**
+Aquí es donde el alumno entiende la Neurona Artificial. Una neurona no es un objeto estático; es una función que mapea un espacio de alta dimensión (píxeles) a un espacio de una dimensión ($\mathbb{R}$). Lo que llamamos "entrenar la neurona" es en realidad ajustar este funcional para que el número que escupa sea útil para la clasificación.
+
+### 12.3. Matemática Teórica y Justificación
+Sea $V$ un espacio vectorial sobre $\mathbb{R}$. Un Funcional Lineal es una aplicación $f: V \to \mathbb{R}$ que satisface la propiedad de linealidad para todo $u, v \in V$ y $\lambda \in \mathbb{R}$:
+* **Aditividad:** $f(u + v) = f(u) + f(v)$
+* **Homogeneidad:** $f(\lambda v) = \lambda f(v)$
+
+**Justificación:**
+¿Por qué la linealidad es innegociable aquí?
+* **Proporcionalidad:** Si una imagen tiene el doble de brillo, la respuesta de la neurona debe ser el doble (antes de pasar por la activación no lineal).
+* **Superposición:** La respuesta de la neurona a dos formas superpuestas debe ser la suma de las respuestas a cada forma por separado.
+
+Este mapeo de $\mathbb{R}^n \to \mathbb{R}$ es una operación de compresión extrema. Estamos perdiendo casi toda la información del vector para quedarnos con un solo dato escalar. El conjunto de todos estos posibles funcionales es tan vasto y está tan bien estructurado que forma su propio espacio, el cual estudiaremos en el siguiente capítulo.
+
+### 12.4. Herramientas Visuales Sugeridas
 
 <details>
-<summary><b>🖼️ Figura 12.1 — El Funcional como Medidor</b></summary>
-<br>
-<img src="../img/bloque-3/fig-12-1-medidor.png" width="100%">
-<p><em>Representación de un vector atravesando un filtro (el funcional) y colapsando en un único escalar en la recta real.</em></p>
+  <summary><b>🖼️ Figura 12.1: El Embudo Escalar</b></summary>
+  <br>
+  <img src="../img/bloque-3/fig-12-1-embudo.png" width="100%">
+  <p><em>Un vector grande (rejilla 3x3) entrando en una caja etiquetada como "$f$" y saliendo de ella un único número real sobre una recta numérica.</em></p>
+</details>
+
+<details>
+  <summary><b>🖼️ Figura 12.2: La Selección de Características</b></summary>
+  <br>
+  <img src="../img/bloque-3/fig-12-2-seleccion.png" width="100%">
+  <p><em>Un esquema que muestra cómo el funcional "pesa" ciertos píxeles y pone a cero otros, actuando como un filtro que extrae una sola propiedad.</em></p>
+</details>
+
+<details>
+  <summary><b>🖼️ Figura 12.3: Linealidad de la Evaluación</b></summary>
+  <br>
+  <img src="../img/bloque-3/fig-12-3-linealidad.png" width="100%">
+  <p><em>Dos imágenes sumándose antes de entrar al funcional, y el resultado siendo igual a la suma de las imágenes evaluadas por separado: $f(u + v) = f(u) + f(v)$.</em></p>
 </details>
 
 ---
 
-## Capítulo 13 — El Espacio Dual ($V^*$): El Universo de los Filtros
+## Capítulo 13: El Espacio Dual $V^*$: El universo de los parámetros
 
-### Explicación Intuitiva: El espejo del espacio
-Si tienes un espacio vectorial lleno de todas las imágenes posibles, existe un universo paralelo lleno de todos los filtros posibles que pueden evaluar esas imágenes. Ese universo paralelo es el Espacio Dual. A los habitantes del espacio normal los llamamos **vectores**; a los del espacio dual los llamamos **covectores**.
+### 13.1. Explicación para "Dummies": El catálogo de lupas
+El Espacio Dual $V^*$ es el conjunto de todos los funcionales posibles. Cada neurona es un habitante de este espacio.
 
-### Ejemplo Aplicado: Los pesos de la red
-En Machine Learning, los datos de entrada (las "x") viven en el espacio vectorial $V$. Los parámetros que el modelo aprende (los pesos "w") viven en el Espacio Dual $V^*$. El aprendizaje automático consiste en buscar en el Espacio Dual el covector perfecto que separe correctamente los datos.
+Esa caja de lupas es el Espacio Dual $V^*$. Cada "lupa" (funcional) es un habitante de este espacio. 
+No son sellos. 
+Son herramientas que actúan sobre los sellos para darnos un dato.
 
-### Rigor Matemático
-El conjunto de todos los funcionales lineales definidos sobre $V$ forma por sí mismo un espacio vectorial, denominado Espacio Dual y denotado como $V^*$.
-Si $V$ tiene dimensión finita $n$, entonces $V^*$ también tiene dimensión finita $n$. 
+En una red neuronal, cuando ves una capa con 512 neuronas, lo que tienes es un espacio dual de dimensión 512. Cada neurona es una "lupa" distinta que está mirando el mismo dato de entrada para extraer una conclusión diferente.
 
-$$\text{dim}(V) = \text{dim}(V^*) = n$$
+### 13.2. Rigor mediante Ejemplo Aplicado: Los pesos de la neurona
+Volvemos a nuestra rejilla de $3 \times 3$. Tenemos una imagen $v$ (un vector de 9 números).
 
-Aunque son isomorfos (tienen la misma estructura y dimensión), geométricamente operan de forma distinta. En notación matricial estricta, si $V$ son matrices $n \times 1$ (columnas), $V^*$ son matrices $1 \times n$ (filas).
+**El Escenario:**
+Para procesar esa imagen, definimos un conjunto de pesos (weights). Supongamos que queremos detectar si hay un trazo horizontal en medio. Definimos un elemento del espacio dual, llamémoslo $w$, mediante sus coeficientes:
 
-### Figuras
+$$w = [0, 0, 0, 1, 1, 1, 0, 0, 0]$$
+
+Cuando este funcional $w$ actúa sobre cualquier imagen $v$, realiza la operación:
+
+$$w(v) = 0 \cdot v_1 + \dots + 1 \cdot v_4 + 1 \cdot v_5 + 1 \cdot v_6 + \dots = v_4 + v_5 + v_6$$
+
+**Relación con la IA:**
+Aquí está el secreto mejor guardado: Los pesos de una neurona no son un vector del espacio original, son un vector del espacio dual.
+* $v \in V$ (El dato).
+* $w \in V^*$ (El parámetro).
+
+El entrenamiento (Backpropagation) no consiste en cambiar el dato, sino en movernos por el espacio dual hasta encontrar la "lupa" (los pesos) que mejor clasifica la realidad.
+
+### 13.3. Matemática Teórica y Justificación
+Sea $V$ un espacio vectorial sobre $\mathbb{R}$. Definimos el Espacio Dual $V^*$ como el conjunto de todos los funcionales lineales $f: V \to \mathbb{R}$.
+
+**Propiedades Estructurales:**
+* **Espacio Vectorial:** $V^*$ es en sí mismo un espacio vectorial. Podemos sumar dos funcionales (dos formas de medir) y obtener una nueva, o multiplicar un funcional por un escalar (darle más o menos importancia).
+* **Dimensión:** Si $V$ tiene dimensión finita $n$, entonces $V^*$ también tiene dimensión $n$.
+* **Dualidad:** A los elementos de $V$ los llamamos vectores (o vectores contravariantes) y a los de $V^*$ los llamamos covectores (o vectores covariantes).
+
+**Justificación:**
+¿Por qué separar ambos espacios si tienen la misma dimensión? Porque se comportan de forma distinta ante cambios de escala. Si decides medir tus píxeles en una escala del 1 al 100 en lugar de 0 a 1 (estiras el espacio $V$), los pesos de tu neurona ($V^*$) deben encogerse proporcionalmente para que el resultado final sea el mismo. Esta relación inversa es la que define la covarianza, fundamental para entender cómo escalan los modelos de IA en producción.
+
+### 13.4. Herramientas Visuales Sugeridas
 
 <details>
-<summary><b>🖼️ Figura 13.1 — Vectores vs Covectores</b></summary>
-<br>
-<img src="../img/bloque-3/fig-13-1-vectores-covectores.png" width="100%">
-<p><em>Vectores representados como flechas; covectores representados como familias de hiperplanos paralelos (líneas de contorno) que el vector atraviesa.</em></p>
+  <summary><b>🖼️ Figura 13.1: El Producto Interno como Interacción</b></summary>
+  <br>
+  <img src="../img/bloque-3/fig-13-1-interaccion.png" width="100%">
+  <p><em>Un vector columna (dato) encontrándose con un vector fila (pesos). La interacción produce un escalar. Es la visualización de la dualidad.</em></p>
+</details>
+
+<details>
+  <summary><b>🖼️ Figura 13.2: El Espacio de las Reglas</b></summary>
+  <br>
+  <img src="../img/bloque-3/fig-13-2-reglas.png" width="100%">
+  <p><em>Un plano que representa $V$ con puntos (datos) y un espacio paralelo que representa $V^*$ con planos de nivel que "rebanan" el espacio original.</em></p>
+</details>
+
+<details>
+  <summary><b>🖼️ Figura 13.3: Dualidad en la Neurona</b></summary>
+  <br>
+  <img src="../img/bloque-3/fig-13-3-neurona.png" width="100%">
+  <p><em>El esquema clásico de una neurona, pero etiquetando claramente los inputs como pertenecientes a $V$ y los pesos como pertenecientes a $V^*$.</em></p>
 </details>
 
 ---
 
-## Capítulo 14 — La Base Dual: Calibrando los Medidores
+## Capítulo 14: El concepto de Hiperplano: Separando la realidad matemáticamente
 
-### Explicación Intuitiva: Medidores quirúrgicos
-Si tienes una base de vectores que construye tu espacio (eje X, eje Y, eje Z), puedes construir una "Base Dual" de medidores que estén calibrados milimétricamente. El primer medidor dual solo detecta movimiento en el eje X e ignora el resto. El segundo solo detecta el eje Y. 
+### 14.1. Explicación para "Dummies": El muro de cristal
+Un Hiperplano Afín es la frontera de decisión que divide el espacio en dos categorías.
 
-### Ejemplo Aplicado: Extracción de características
-Si tu base vectorial representa "Color", "Forma" y "Textura", la base dual son los tres algoritmos exactos que extraen el valor numérico de cada una de esas características de forma aislada, sin que haya interferencia entre ellas (crosstalk).
+Si las canicas estuvieran flotando en una habitación (3D), necesitarías una hoja de papel infinita para separarlas. Eso es un hiperplano en 3D.
+¿Y si las canicas tienen 1.000 dimensiones (como los píxeles de una imagen)? Sigues necesitando un "muro", pero un muro de 999 dimensiones. El Hiperplano es el corte perfecto que divide el universo en dos: "Lo que es A" y "Lo que no es A".
 
-### Rigor Matemático
-Sea $B = \{e_1, e_2, \dots, e_n\}$ una base de $V$. Existe una única base $B^* = \{\phi_1, \phi_2, \dots, \phi_n\}$ de $V^*$ tal que cada funcional $\phi_i$ evalúa a los vectores de la base original según la delta de Kronecker:
+### 14.2. Rigor mediante Ejemplo Aplicado: Separación de maderas
+Supongamos que medimos dos características de una pieza de madera: Densidad ($x_1$) y Resistencia al corte ($x_2$).
 
-$$\phi_i(e_j) = \delta_{ij} = \begin{cases} 1 & \text{si } i = j \\ 0 & \text{si } i \neq j \end{cases}$$
+**El Escenario:**
+Queremos que nuestra IA decida si la madera es "Roble" (Clase $1$) o "Pino" (Clase $0$). Tras el entrenamiento, la IA ha encontrado un funcional en el espacio dual cuyos pesos son $w = [w_1, w_2]$ y un umbral de decisión (sesgo) $b$.
 
-Cualquier funcional $f \in V^*$ se puede expresar como combinación lineal de esta base dual.
+La frontera de decisión es el conjunto de puntos donde:
 
-### Figuras
+$$w_1 x_1 + w_2 x_2 + b = 0$$
+
+Si el resultado es $> 0$, la IA predice Roble.
+Si el resultado es $< 0$, la IA predice Pino.
+
+**Relación con la IA:**
+Este es el fundamento de las Máquinas de Vector de Soporte (SVM) y de la capa de salida de casi cualquier red neuronal. El hiperplano es la "sentencia" del modelo. Entrenar una IA es, en esencia, mover ese muro por el hiperespacio hasta que deje a todos los "perros" a un lado y a todos los "gatos" al otro con el mayor margen posible.
+
+### 14.3. Matemática Teórica y Justificación
+Sea $V$ un espacio vectorial de dimensión $n$. Un Hiperplano Afín $H$ es un subespacio de dimensión $n-1$ trasladado. Matemáticamente, se define a través de un funcional lineal no nulo $f \in V^*$ y un escalar $b \in \mathbb{R}$:
+
+$$H = \{ v \in V \mid f(v) + b = 0 \}$$
+
+**Propiedades Críticas:**
+* **Vector Normal:** El funcional $f$ define la dirección perpendicular al hiperplano. En un espacio euclídeo, esto corresponde al vector de pesos $w$.
+* **Partición del Espacio:** Un hiperplano divide al espacio $V$ en dos semi-espacios abiertos: $f(v) + b > 0$ y $f(v) + b < 0$.
+* **Kernel:** Si $b = 0$, el hiperplano es exactamente el Núcleo (Kernel) del funcional lineal, es decir, el lugar donde el funcional se anula.
+
+**Justificación:**
+¿Por qué es tan importante que sea lineal? Porque la linealidad garantiza que la frontera sea "plana". Si permitiéramos fronteras curvas sin control, el modelo sufriría de overfitting (memorizaría los datos en lugar de aprender). El hiperplano es la forma más simple y robusta de generalizar una decisión en alta dimensión.
+
+### 14.4. Herramientas Visuales Sugeridas
 
 <details>
-<summary><b>🖼️ Figura 14.1 — La acción de la Base Dual</b></summary>
-<br>
-<img src="../img/bloque-3/fig-14-1-base-dual.png" width="100%">
-<p><em>Un covector $\phi_1$ filtrando un vector $v$, anulando todas sus componentes excepto la correspondiente a $e_1$.</em></p>
+  <summary><b>🖼️ Figura 14.1: La Frontera en 2D</b></summary>
+  <br>
+  <img src="../img/bloque-3/fig-14-1-frontera-2d.png" width="100%">
+  <p><em>Dos nubes de puntos claramente separadas por una línea recta. Se marcan los vectores que están justo en el borde (vectores de soporte).</em></p>
+</details>
+
+<details>
+  <summary><b>🖼️ Figura 14.2: Proyección del Hiperplano en 3D</b></summary>
+  <br>
+  <img src="../img/bloque-3/fig-14-2-hiperplano-3d.png" width="100%">
+  <p><em>Un plano atravesando un cubo de datos, dividiendo el volumen en dos regiones de colores distintos.</em></p>
+</details>
+
+<details>
+  <summary><b>🖼️ Figura 14.3: El Vector Normal (Covector)</b></summary>
+  <br>
+  <img src="../img/bloque-3/fig-14-3-vector-normal.png" width="100%">
+  <p><em>El plano de decisión y una flecha (el covector del espacio dual) saliendo de él a $90^\circ$, mostrando que el funcional es quien "manda" sobre la orientación del muro.</em></p>
 </details>
 
 ---
 
-## Capítulo 15 — El Aniquilador: Lo que la Máquina no puede ver
+## Capítulo 15: La Base Dual y la Delta de Kronecker: El detector de píxeles puro
 
-### Explicación Intuitiva: El punto ciego
-Si tienes un subespacio (una zona concreta de tu universo de datos), el **Aniquilador** es el conjunto de todos los medidores (covectores) que son completamente ciegos a esa zona. Cualquier dato que provenga de ese subespacio dará una medición de cero absoluto en estos medidores.
+### 15.1. Explicación para "Dummies": La mesa de mezclas perfecta
+La Base Dual permite el aislamiento total de canales de información mediante la Delta de Kronecker.
 
-### Ejemplo Aplicado: Filtrado de ruido
-En el procesamiento de señales de IA, si sabemos que el ruido de fondo vive en un subespacio $S$, construimos nuestros filtros utilizando covectores que pertenezcan al aniquilador de $S$. Así, el filtro devolverá $0$ cuando evalúe el ruido, eliminándolo por completo matemáticamente.
+Una Base Dual es la configuración perfecta de esa mesa de mezclas, donde el deslizador 1 controla única y exclusivamente el volumen del canal 1, sin afectar lo más mínimo a los canales 2 al 9. El deslizador 2 controla solo el canal 2, y así sucesivamente.
 
-### Rigor Matemático
-Sea $S$ un subconjunto de $V$. El aniquilador de $S$, denotado como $S^0$, es el subespacio de $V^*$ formado por todos los funcionales que se anulan en $S$:
+Parece obvio, pero matemáticamente requiere una construcción específica. La Delta de Kronecker es el interruptor que garantiza este comportamiento: "Si el deslizador $\phi_i$ actúa sobre el canal $e_j$, el resultado es $1$ si $i=j$ (son el mismo canal) y $0$ si $i \neq j$ (son canales distintos)". Es el aislamiento total de la información.
 
-$$S^0 = \{ f \in V^* \mid f(x) = 0, \forall x \in S \}$$
+### 15.2. Rigor mediante Ejemplo Aplicado: El Filtro de Píxel Único
+Volvemos a nuestra rejilla de $3 \times 3$ con su base canónica $B = \{e_1, \dots, e_9\}$. Recuerda que $e_5$ es una imagen donde solo el píxel central está encendido.
 
-Si $W$ es un subespacio vectorial de $V$, existe una relación crítica de dimensiones:
+**El Escenario:**
+Queremos diseñar una neurona (un funcional en $V^*$), llamémoslo $\phi_5$, cuyo único objetivo sea medir la intensidad del píxel central. Ignorando completamente los otros 8 píxeles.
 
-$$\text{dim}(W) + \text{dim}(W^0) = \text{dim}(V)$$
+Si le pasamos la imagen $e_5$, queremos que el resultado sea $1$ (detección perfecta).
+Si le pasamos la imagen $e_1$ (píxel esquina encendido), queremos que el resultado sea $0$.
 
-### Figuras
+El funcional $\phi_5$ se define por un conjunto de pesos. Para que funcione como queremos, sus pesos deben ser $[0, 0, 0, 0, 1, 0, 0, 0, 0]$. Al actuar sobre $e_5$:
+
+$$\phi_5(e_5) = 0 \cdot 0 + \dots + 1 \cdot 1 + \dots = 1$$
+
+Al actuar sobre $e_1$:
+
+$$\phi_5(e_1) = 0 \cdot 1 + \dots + 1 \cdot 0 + \dots = 0$$
+
+**Relación con la IA:**
+Este funcional $\phi_5$ es un elemento de la Base Dual. En IA, esto es fundamental para el Indexing (indexación) y la extracción de características puras. Antes de que una red compleja mezcle píxeles (convoluciones), necesitamos la capacidad matemática de referirnos a "la intensidad del píxel (2,2)" de forma aislada. La base dual provee esos "sensores puros".
+
+### 15.3. Matemática Teórica y Justificación
+Sea $V$ un espacio vectorial de dimensión finita $n$, y sea $B = \{e_1, \dots, e_n\}$ una base de $V$. Existe una única base de $V^*$, denotada por $B^* = \{\phi^1, \dots, \phi^n\}$, llamada la Base Dual de $V$.
+
+Los elementos de $B^*$ se definen por su acción sobre los elementos de $B$ mediante la Delta de Kronecker ($\delta_j^i$):
+
+$$\phi^i(e_j) = \delta_j^i = \begin{cases} 1 & \text{si } i = j \\ 0 & \text{si } i \neq j \end{cases}$$
+
+*(Nota de notación: Usamos superíndices para los covectores de la base dual para facilitar la notación de Einstein que veremos más adelante).*
+
+**Justificación:**
+* **Demostración de Dimensión:** La existencia de esta base dual prueba rigurosamente que $\dim(V) = \dim(V^*)$.
+* **Representación de Coordenadas:** Cualquier funcional lineal $f$ puede escribirse como una combinación lineal de la base dual: $f = \sum_{i=1}^n c_i \phi^i$. Y lo más potente: las coordenadas $c_i$ son simplemente el funcional evaluado en los vectores de la base original, $c_i = f(e_i)$.
+* **Backpropagation:** Esta relación uno-a-uno es la que permite que, durante el entrenamiento, cuando calculamos el error en una neurona de salida, sepamos exactamente qué peso específico ajustar en relación con qué entrada específica. La Delta de Kronecker es el "mapa de cableado" que hace posible el aprendizaje supervisado.
+
+### 15.4. Herramientas Visuales Sugeridas
 
 <details>
-<summary><b>🖼️ Figura 15.1 — El subespacio aniquilador</b></summary>
-<br>
-<img src="../img/bloque-3/fig-15-1-aniquilador.png" width="100%">
-<p><em>Un plano en 3D (el subespacio $W$) y un vector ortogonal (representando al aniquilador $W^0$) que proyecta cualquier punto del plano a cero.</em></p>
+  <summary><b>🖼️ Figura 15.1: La Delta de Kronecker Visual</b></summary>
+  <br>
+  <img src="../img/bloque-3/fig-15-1-kronecker.png" width="100%">
+  <p><em>Una matriz de 3x3 rejillas de píxeles. El eje Y representa el covector aplicado ($\phi^i$) y el eje X el vector de entrada ($e_j$). Solo la diagonal principal de la matriz está iluminada (resultado $1$), el resto está oscuro (resultado $0$).</em></p>
+</details>
+
+<details>
+  <summary><b>🖼️ Figura 15.2: El "Cableado" de la Base Dual</b></summary>
+  <br>
+  <img src="../img/bloque-3/fig-15-2-cableado.png" width="100%">
+  <p><em>Un diagrama con 3 neuronas de entrada y 3 neuronas de salida que representan la base dual. Líneas directas conectan canales aislados mostrando el aislamiento.</em></p>
+</details>
+
+<details>
+  <summary><b>🖼️ Figura 15.3: Notación de Índices (Contravariante vs Covariante)</b></summary>
+  <br>
+  <img src="../img/bloque-3/fig-15-3-indices.png" width="100%">
+  <p><em>Un diagrama tipográfico que resalta el índice inferior y el superior, mostrando cómo se "cancelan" mediante la delta de Kronecker $\phi^i(e_j) = \delta_j^i$.</em></p>
 </details>
 
 ---
 
-## Capítulo 16 — Covectores en IA: La Naturaleza del Gradiente
+## Capítulo 16: Isomorfismos Naturales y el Teorema de Representación de Riesz
 
-### Explicación Intuitiva: La pendiente no es una posición
-Cuando entrenas una IA, quieres minimizar el error (la Función de Pérdida). Para hacerlo, calculas el Gradiente. El error común es pensar que el gradiente es una flecha de posición. No lo es. El gradiente es una indicación de cómo cambia el error. Por su propia naturaleza matemática, el gradiente no es un vector de datos, es un **covector**.
+### 16.1. Explicación para "Dummies": El "Objeto Prototipo"
+El Teorema de Representación de Riesz establece que cada funcional tiene un vector gemelo que permite representarlo mediante un producto escalar.
 
-### Ejemplo Aplicado: Backpropagation en Deep Learning
-Durante el paso hacia atrás (backpropagation), lo que fluye por la red neuronal no son datos (vectores), sino gradientes de error (covectores). El gradiente toma una dirección (un cambio en los pesos) y devuelve un escalar (cuánto va a aumentar o disminuir el error).
+El Teorema de Riesz dice exactamente eso: en espacios donde podemos medir distancias (espacios euclídeos), toda regla de evaluación (funcional) tiene un vector "gemelo" en el espacio original que hace exactamente el mismo trabajo mediante un producto escalar.
 
-### Rigor Matemático
-La diferencial de una función escalar (como la función de coste $L: \mathbb{R}^n \to \mathbb{R}$) en un punto $x$ no es un vector, es una forma lineal (covector) que pertenece al espacio cotangente (el espacio dual del espacio tangente):
+Por eso, cuando ves los pesos de una red convolucional, los ves como "filtros" o imágenes pequeñas. Estamos usando el vector prototipo para representar la regla de detección.
 
-$$dL_x(v) = \lim_{h \to 0} \frac{L(x + hv) - L(x)}{h}$$
+### 16.2. Rigor mediante Ejemplo Aplicado: Visualización de Pesos
+Supongamos una red neuronal que clasifica dígitos. La primera neurona debe detectar la línea vertical del número "1".
 
-El gradiente $\nabla L$ es la representación de este covector mediante el producto escalar. Si operamos de forma rigurosa, los pesos se actualizan moviéndonos en la dirección que este covector evalúa como la de máximo descenso.
+**El Escenario:**
+Técnicamente, la neurona es un funcional $f \in V^*$. Pero gracias a Riesz, podemos encontrar un vector $v_f \in V$ tal que la activación sea $f(x) = \langle x, v_f \rangle$.
 
-### Figuras
+Si $v_f$ tiene esta forma:
+$[0, 1, 0, 0, 1, 0, 0, 1, 0]$ (visto como imagen).
+
+Cualquier imagen de entrada $x$ que se parezca a ese "prototipo" dará un resultado alto. Hemos convertido una operación abstracta en una comparación visual.
+
+**Relación con la IA:**
+Esta es la razón por la que en el análisis de interpretabilidad de modelos (como LIME o SHAP), podemos dibujar "mapas de calor" sobre la imagen original. Estamos proyectando los pesos del Dual de vuelta al espacio de los Píxeles para que un humano pueda entender qué está "mirando" la máquina. Sin este isomorfismo, los pesos serían solo una lista de números sin significado geométrico.
+
+### 16.3. Matemática Teórica y Justificación
+Sea $V$ un espacio vectorial de dimensión finita con un producto escalar $\langle \cdot, \cdot \rangle$. El Teorema de Representación de Riesz establece que para cada funcional lineal $f \in V^*$, existe un único vector $v_f \in V$ tal que:
+
+$$f(x) = \langle x, v_f \rangle \quad \forall x \in V$$
+
+**Consecuencias Matemáticas:**
+* **Isomorfismo Natural:** La aplicación $\Phi: V \to V^*$ que envía cada vector $v$ al funcional $\langle \cdot, v \rangle$ es un isomorfismo. Esto significa que $V$ y $V^*$ son estructuralmente idénticos mientras el producto escalar no cambie.
+* **Identificación de Bases:** Si la base $B=\{e_i\}$ es ortonormal, entonces su base dual $B^*$ se identifica directamente con los mismos vectores: $\phi^i \equiv e_i$.
+* **El peligro de la comodidad:** Muchos desarrolladores de IA olvidan que esta identificación depende del producto escalar. Si cambias la métrica del espacio (por ejemplo, usando una norma distinta), el "vector prototipo" cambia, pero el funcional original (la regla) sigue siendo el mismo.
+
+**Justificación:**
+Este teorema es el que permite que el Descenso de Gradiente funcione. El gradiente es, por definición, un elemento del Dual (indica cómo cambia una función), pero lo restamos directamente de los pesos (que tratamos como vectores) porque Riesz nos permite identificarlos en el mismo espacio.
+
+### 16.4. Herramientas Visuales Sugeridas
 
 <details>
-<summary><b>🖼️ Figura 16.1 — El Gradiente como forma lineal</b></summary>
-<br>
-<img src="../img/bloque-3/fig-16-1-gradiente-covector.png" width="100%">
-<p><em>Líneas de contorno topográficas de una función de coste; el gradiente actúa determinando la densidad de esas líneas, no solo apuntando hacia abajo.</em></p>
+  <summary><b>🖼️ Figura 16.1: El Espejo de Riesz</b></summary>
+  <br>
+  <img src="../img/bloque-3/fig-16-1-espejo.png" width="100%">
+  <p><em>Un diagrama con dos planos paralelos ($V$ y $V^*$). Una flecha de doble sentido conecta un funcional con su vector representante, mediado por el símbolo del producto escalar.</em></p>
+</details>
+
+<details>
+  <summary><b>🖼️ Figura 16.2: Filtros de Convolución como Vectores</b></summary>
+  <br>
+  <img src="../img/bloque-3/fig-16-2-convolucion.png" width="100%">
+  <p><em>Una red neuronal mostrando una capa oculta. Se hace zoom en una neurona para mostrar que sus "pesos" forman una pequeña imagen que busca patrones.</em></p>
+</details>
+
+<details>
+  <summary><b>🖼️ Figura 16.3: El Colapso de la Dualidad</b></summary>
+  <br>
+  <img src="../img/bloque-3/fig-16-3-colapso.png" width="100%">
+  <p><em>Una animación conceptual donde el vector fila (Dual) y el vector columna (Espacio) se funden en un solo objeto gracias a la métrica euclídea.</em></p>
 </details>
