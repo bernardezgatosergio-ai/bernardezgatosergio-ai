@@ -128,7 +128,7 @@ Caballo de Troya está diseñado desde su arquitectura para ser el núcleo técn
 
 - **30 años** liderando operaciones en entornos críticos
 - **4 continentes** — dirección de activos industriales en EEUU, Brasil, Chile y Rumanía
-- **+200 personas** bajo dirección directa en el momento de mayor responsabilidad
+- **+2000 personas** bajo dirección directa en el momento de mayor responsabilidad
 - **12 fábricas** coordinadas simultáneamente como Director Industrial del Grupo Losán
 - **Sectores:** Forestal · Naval · Ingeniería · Arquitectura · Consultoría · Inteligencia Artificial
 
