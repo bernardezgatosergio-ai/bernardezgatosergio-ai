@@ -142,7 +142,8 @@ Un docente con autoridad interna real — no la del cargo sino la del que ha tom
 
 ### Lo que pido
 
-**Cuatro o seis horas semanales.** Los alumnos más complicados. Y la confianza para trabajar con una metodología que todavía no está en ningún libro — porque la estamos escribiendo ahora.
+**Cuatro o seis horas semanales de docencia** Los alumnos más complicados. Y la confianza para trabajar con una metodología que todavía no está en ningún libro — porque la estamos escribiendo ahora.
+**Resto de dedicación de una jormada comkpleta al Desarrollo e implantación bajo el amparo de un proyecto europeo Ak2 del proyecto Caballo de Troya** Los alumnos más complicados. Y la confianza para trabajar con una metodología que todavía no está en ningún libro — porque la estamos escribiendo ahora.
 
 ---
 
