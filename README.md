@@ -1,7 +1,4 @@
-<div align="center">
-  <img src="video .gif" width="100%">
-</div>
-<p align="center">
+
 
   <img src="banner.jpg" alt="Sergio Bernárdez - Innovación Educativa" width="100%">
 
@@ -15,7 +12,7 @@
 
 ### 🏭 Perfil Ejecutivo e Industrial Internacional
 
-Más de 30 años de trayectoria liderando operaciones complejas y tecnología en entornos multinacionales:
+28 años de trayectoria liderando operaciones complejas y tecnología en entornos multinacionales:
 
 * **Director Industrial de Multinacional:** Gestión de plantas y activos en **EE.UU. (Pennsylvania), Brasil, Chile y Rumanía**.
 
@@ -100,3 +97,8 @@ Mi perfil combina la máxima titulación técnica con la habilitación pedagógi
   <sub>Ingeniería aplicada a la educación | 2026</sub>
 
 </p>
+
+<div align="center">
+  <img src="video .gif" width="100%">
+</div>
+<p align="center">
