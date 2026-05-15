@@ -97,20 +97,12 @@ No propongo gestionar fondos europeos desde la teoría. Lo he hecho:
 Caballo de Troya está diseñado desde su arquitectura para ser el núcleo técnico de una convocatoria **KA2 de Erasmus+** con el centro como coordinador o socio validador.
 
 **Lo que esto significa para el centro:**
-Financiación europea directa
-│
-▼
-Sin coste operativo adicional para el centro
-│
-▼
-Base de datos de aprendizaje de valor científico
-(miles de alumnos · 24-36 meses)
-│
-▼
-Publicaciones científicas con el centro como coautor
-│
-▼
-Posicionamiento internacional en Educación 4.0
+
+- Financiación europea directa
+- Sin coste operativo adicional para el centro
+- Base de datos de aprendizaje de valor científico(miles de alumnos · 24-36 meses)
+- Publicaciones científicas con el centro como coautor
+- Posicionamiento internacional en Educación 4.0
 
 **Líneas de investigación generadas:**
 
