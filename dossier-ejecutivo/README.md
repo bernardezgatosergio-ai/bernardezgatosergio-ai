@@ -117,8 +117,8 @@ Caballo de Troya está diseñado desde su arquitectura para ser el núcleo técn
 
 | Período | Rol | Organización | País |
 |---------|-----|--------------|------|
-| 2024-hoy | Arquitecto de Sistemas IA | Independiente | España |
-| 2024-hoy | Consultor Estratégico | Piregal Superyates | España |
+| 2024-hoy | Arquitecto de Sistemas IA + Director IT Piregal| España |
+| 2024-2025 | Director de Fabrica | Nauteka | España |
 | 2013-2023 | Founder & CEO | Seistag Innovación / STGWood | España |
 | 2009-2013 | Director Industrial e I+D+i | Grupo Losán | España / Internacional |
 | 2003-2009 | Director de Expansión Internacional | Grupo Losán | EEUU · Chile · Brasil |
