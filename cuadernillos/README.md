@@ -4,6 +4,8 @@ Este índice maestro organiza la base teórica y operativa del proyecto. Cada bl
 
 ---
 
+[⬅️ Volver](../README.md)
+
 ## 📘 CUADERNILLO I — Álgebra Lineal: El Lenguaje de los Datos
 
 ### 📦 [Bloque I — El Espacio de los Datos (Vectores y Bases)](./cuadernillo-1/bloque-1-vectores-bases.md)
