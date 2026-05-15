@@ -86,6 +86,9 @@ Mi perfil combina la máxima titulación técnica con la habilitación pedagógi
 * 🤖 **[Titán y Sabina: SaaS Industrial](./titan-sabina/README.md)** *Arquitectura autopoyética y auditoría determinista. Trazabilidad legal inmutable mediante Blockchain (Polygon).*
 
 * 📜 **[Credenciales Académicas y Docentes](./credenciales/README.md)** *Doble Ingeniería, DEA (Doctorado), Máster en Formación del Profesorado y Máster en Química Orgánica.*
+
+* - 📐 **[Cuadernillos: Álgebra Aplicada a la IA](https://github.com/bernardezgatosergio-ai/bernardezgatosergio-ai/tree/main/cuadernillos-algebra-ia)**
+  *Material didáctico propio. Dos cuadernillos que llevan al estudiante desde los axiomas del espacio vectorial hasta las arquitecturas Transformer, con rigor matemático y ejemplos aplicados a redes neuronales.*
 ---
 ## 📬 Contacto Directo
 **Teléfono:** 604 023 231 | **Email:** [bernardezgatosergio@gmail.com](mailto:bernardezgatosergio@gmail.com)
