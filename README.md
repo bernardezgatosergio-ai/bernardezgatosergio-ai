@@ -87,7 +87,7 @@ Mi perfil combina la máxima titulación técnica con la habilitación pedagógi
 
 * 📜 **[Credenciales Académicas y Docentes](./credenciales/README.md)** *Doble Ingeniería, DEA (Doctorado), Máster en Formación del Profesorado y Máster en Química Orgánica.*
 
-* - 📐 **[Cuadernillos: Álgebra Aplicada a la IA](https://github.com/bernardezgatosergio-ai/bernardezgatosergio-ai/tree/main/cuadernillos-algebra-ia)**
+* 📐 **[Cuadernillos: Álgebra Aplicada a la IA](https://github.com/bernardezgatosergio-ai/bernardezgatosergio-ai/tree/main/cuadernillos-algebra-ia)**
   *Material didáctico propio. Dos cuadernillos que llevan al estudiante desde los axiomas del espacio vectorial hasta las arquitecturas Transformer, con rigor matemático y ejemplos aplicados a redes neuronales.*
 ---
 ## 📬 Contacto Directo
