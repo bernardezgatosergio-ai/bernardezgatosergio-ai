@@ -77,3 +77,29 @@ Este índice maestro organiza la base teórica y operativa del proyecto. Cada bl
 - Capítulo 46 — Autovalores y Estabilidad: ¿Por qué la Red No Explota?
 - Capítulo 47 — Búsqueda Vectorial y Vecinos Cercanos: La Geometría del RAG
 - Capítulo 48 — La Hipótesis del Manifold: La Forma Oculta de los Datos
+  
+## 📗 CUADERNILLO III — Caso práctico: Iris Sp.
+
+I · Fundamentos
+- 01 Espacio Vectorial
+- 02 Subespacio Vectorial
+- 03 Independencia Lineal
+- 04 Base y Dimensión
+- 05 Combinación Lineal y Span
+
+II · Geometría
+- 06 Producto Escalar
+- 07 Norma y Distancia Euclídea
+- 08 Ángulo entre Vectores
+- 09 Ortogonalidad
+- 10 Proceso de Gram-Schmidt
+
+III · Matrices
+- 11 Transformaciones Lineales
+- 12 Representación Matricial
+- 13 Rango y Nulidad
+- 14 Cambio de Base
+- 15 Determinante
+
+
+
