@@ -103,7 +103,73 @@ III · Matrices
 
 ### 📦 Bloque II —
 
-
+IV · Eigenvalores
+16
+Valores y Vectores Propios
+17
+Diagonalización
+18
+Polinomio Característico
+19
+Matrices Ortogonales
+V · Formas
+20
+Formas Bilineales
+21
+Formas Cuadráticas
+22
+Criterio de Sylvester
+23
+Traza y Norma de Frobenius
+VI · Análisis
+24
+Gradiente y Diferencial
+25
+Jacobiano
+26
+Hessiano
+VII · Dual
+27
+Espacio Dual
+28
+Base Dual y Aniquilador
+VIII · Tensores
+29
+Producto Tensorial
+30
+Transformación Tensorial y Cambio de Base
 
 ### 📦 Bloque III — 
 
+IX · Aplicaciones
+31
+PCA — Análisis de Componentes Principales
+32
+Distancia de Mahalanobis
+33
+Descomposición en Valores Singulares (SVD)
+34
+Análisis Discriminante Lineal (LDA)
+35
+Hiperplanos Separadores
+36
+Proyección Ortogonal
+37
+Pseudo-Inversa de Moore-Penrose
+38
+Complemento de Schur
+39
+Derivadas Matriciales
+40
+Métrica de Riemann e Información de Fisher
+41
+Cholesky y Raíz Cuadrada de Matrices
+42
+Normas Vectoriales y Matriciales
+43
+Número de Condición
+44
+Teorema Rango-Nulidad Extendido
+∞ · Síntesis Final
+45
+El Iris como Objeto Matemático Completo
