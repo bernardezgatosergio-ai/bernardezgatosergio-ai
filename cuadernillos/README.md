@@ -79,7 +79,7 @@ Este índice maestro organiza la base teórica y operativa del proyecto. Cada bl
 - Capítulo 48 — La Hipótesis del Manifold: La Forma Oculta de los Datos
   
 ## 📗 CUADERNILLO III — Caso práctico: Iris Sp.
-### 📦 Bloque I —  (./cuadernillo-3/bloque-1-fundamentos.md)
+### 📦 [Bloque I — Fundamento, geometía y matrices] (./cuadernillo-3/bloque-1-fundamentos.md)
 I · Fundamentos
 - 01 Espacio Vectorial
 - 02 Subespacio Vectorial
