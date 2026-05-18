@@ -101,7 +101,7 @@ III · Matrices
 - 14 Cambio de Base
 - 15 Determinante
 - 
-### 📦 [Bloque I — Fundamento, geometía y matrices](./cuadernillo-3/bloque-1-fundamentos.md)
+### 📦 [Bloque II — Eingelvalores y dual](./cuadernillo-3/bloque-2-eingelvaores_dual.md)
 
 IV · Eigenvalores
 - 16 Valores y Vectores Propios
