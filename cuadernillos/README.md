@@ -124,7 +124,7 @@ VIII · Tensores
 - 29 Producto Tensorial
 - 30 Transformación Tensorial y Cambio de Base
 
-### 📦 [Bloque III — ](./cuadernillo-3/bloque-1-fundamentos.md)
+### 📦 [Bloque III — Aplicaciones](./cuadernillo-3/bloque-3-aplicaciones.md)
 
 IX · Aplicaciones
 - 31 PCA — Análisis de Componentes Principales
